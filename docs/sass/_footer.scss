@@ -3,6 +3,9 @@
     grid-column: full-start / full-end;
     padding: 8rem;
 
+    @media only screen and(max-width: $bp-large) {
+        padding: 3rem; 
+     }
 }
 
 .nav {
@@ -12,6 +15,11 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
     gap: 2rem;
     align-items: center; 
+
+    @media only screen and(max-width: $bp-large) {
+        padding-top: 5rem;
+        gap: 1rem;
+    }
 
     &__link:link,
     &__link:visited {
@@ -24,6 +32,11 @@
         padding: 1.5rem;
         display: block;
         transition: all .2s; 
+
+        @media only screen and(max-width: $bp-large) {
+           font-size: 1.2rem;
+           padding: 1rem; 
+        }
     }
 
     &__link:hover,
@@ -41,4 +54,9 @@
     margin-left: auto;
     text-align: center;
     width: 70%;
+
+    @media only screen and(max-width: $bp-large) {
+        font-size: 1.2rem; 
+     }
+
 }
