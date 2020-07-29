@@ -14,3 +14,5 @@ The site is viewable here: https://codedeki.github.io/real-estate-site-css-grid/
   * and more!
 
 _Note: Some features are incomplete as this site was built for fun._  
+
+_Designed by Jonas Schmedtmann._
